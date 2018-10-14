@@ -1,0 +1,11 @@
+/home/ahmad/Projects/ATMClerk/ATMClerk.Tester/bin/Debug/netcoreapp2.1/ATMClerk.Tester.deps.json
+/home/ahmad/Projects/ATMClerk/ATMClerk.Tester/bin/Debug/netcoreapp2.1/ATMClerk.Tester.runtimeconfig.json
+/home/ahmad/Projects/ATMClerk/ATMClerk.Tester/bin/Debug/netcoreapp2.1/ATMClerk.Tester.runtimeconfig.dev.json
+/home/ahmad/Projects/ATMClerk/ATMClerk.Tester/bin/Debug/netcoreapp2.1/ATMClerk.Tester.dll
+/home/ahmad/Projects/ATMClerk/ATMClerk.Tester/bin/Debug/netcoreapp2.1/ATMClerk.Tester.pdb
+/home/ahmad/Projects/ATMClerk/ATMClerk.Tester/obj/Debug/netcoreapp2.1/ATMClerk.Tester.csprojAssemblyReference.cache
+/home/ahmad/Projects/ATMClerk/ATMClerk.Tester/obj/Debug/netcoreapp2.1/ATMClerk.Tester.csproj.CoreCompileInputs.cache
+/home/ahmad/Projects/ATMClerk/ATMClerk.Tester/obj/Debug/netcoreapp2.1/ATMClerk.Tester.AssemblyInfoInputs.cache
+/home/ahmad/Projects/ATMClerk/ATMClerk.Tester/obj/Debug/netcoreapp2.1/ATMClerk.Tester.AssemblyInfo.cs
+/home/ahmad/Projects/ATMClerk/ATMClerk.Tester/obj/Debug/netcoreapp2.1/ATMClerk.Tester.dll
+/home/ahmad/Projects/ATMClerk/ATMClerk.Tester/obj/Debug/netcoreapp2.1/ATMClerk.Tester.pdb
