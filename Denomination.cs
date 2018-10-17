@@ -7,6 +7,12 @@ namespace ATMClerk.Tester
     /// </summary>
     public class Denomination
     {
+        public Denomination(string name, double multiplier, Currency currency)
+        {
+            this.Name = name;
+            this.Multiplier = multiplier;
+            this.Currency = currency;
+        }
         public Guid Id {get;} = Guid.NewGuid();
         /// <summary>
         /// Denomination friendly name
