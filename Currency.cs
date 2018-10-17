@@ -7,6 +7,13 @@ namespace ATMClerk.Tester
     /// </summary>
     public class Currency
     {
+        public Currency(string name, string code, string numeric, int exponent)
+        {
+            this.Name = name;
+            this.Code = code;
+            this.Numeric = numeric;
+            this.Exponent = exponent;
+        }
         public Guid Id {get;} = Guid.NewGuid();
 
         /// <summary>

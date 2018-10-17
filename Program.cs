@@ -7,11 +7,14 @@ namespace ATMClerk.Tester
     {
         static void Main(string[] args)
         {
-            AppCenter.Start("127517ff-3ad0-490d-884c-c93edca80281", typeof(Analytics));
+            
             Event ev = new Event();
 
             Console.WriteLine($"Event Id = {ev.Id}");
             Console.WriteLine($"Query ID once again {ev.Id}");
+
+            Currency curr = new Currency("Canadian Dollars", "CAD", "124", 2);
+            Console.WriteLine($"New Currency Created {curr.Name} as {curr.Code} ");
         }
     }
 }
