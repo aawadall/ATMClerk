@@ -1,6 +1,6 @@
 using System;
 
-namespace ATMClerk.Tester
+namespace ATMClerk.Tester.Entities
 {
     public class Event
     {

@@ -1,6 +1,7 @@
 using System;
 using Microsoft.AppCenter; 
 using Microsoft.AppCenter.Analytics;
+using ATMClerk.Tester.Entities;
 
 namespace ATMClerk.Tester
 {
