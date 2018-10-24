@@ -1,6 +1,6 @@
 using System;
 
-namespace ATMClerk.Tester
+namespace ATMClerk.Tester.Entities
 {
     /// <summary>
     /// Currency Class
