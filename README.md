@@ -21,3 +21,11 @@ Proposed transaction classes are:
 ### Reporting Service
 ### Presentation Service
 ### API
+
+## Items to include
+ensure the following sections are defined
+- [ ] What the project does
+- [ ] The features and benefits of the project
+- [ ] How users can get started with the project
+- [ ] Where users can get help with your project
+- [ ] Who maintains and contributes to the project
