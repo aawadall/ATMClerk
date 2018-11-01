@@ -6,7 +6,7 @@ Allows writes and reads, but no updates or delete. Each transaction entry has a 
 Transaction headers are made of the following common fields:
 - **Transaction ID**: A unique GUID identifying a transaction entry  
 - **Entry Timestamp**: Time when this entry was stored in the immutable transactions store 
-- **Transaction Class**: a string defining direction of a transaction, see [Proposed Transaction classes](####Proposed-Transaction-Classes) section 
+- **Transaction Class**: a string defining direction of a transaction, see [Proposed Transaction classes](#proposed-transaction-classes) section 
 - **Transaction Type**: a string defining purpose of this transaction
 
 #### Proposed Transaction Classes
