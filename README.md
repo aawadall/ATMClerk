@@ -31,8 +31,3 @@ you see how things are getting complicated?
 
 And that's not all, there are some subtle exceptions to handle. For example, when we decide to refill the machine, we don't just decide to fill it. we need to get cash from some cash provider, sort notes, fill cassettes, and send some technician to service this machine. 
 this needs some lead time. 
-
-## TODO
-- [ ] Bundle business entities in a single namespace
-- [ ] Separate data persistance from entity objects
-- [ ] Create Worker module to handle unprocessed jobs 
