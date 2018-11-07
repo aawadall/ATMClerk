@@ -19,14 +19,20 @@ Transaction headers are made of the following common fields:
 1. Load Cash
 1. Empty Cash 
 1. Customer Transaction 
-TBC
 
 ### Transaction Body 
 Transaction body is class dependent, as below:
 
 #### Projected Transaction Body 
 In addition to common transaction (Event) header, it is required to have at least the following fields:
+1. Target Date
+1. Target Machine ID
+1. Target Target Amount; as list of amount objects
+1. Executer; Carrier/Armored Truck
 
+_**Note**: that this transaction class can be used only for the following transaction types:_
+- Load Cash
+- Empty Cash 
 #### Actual Transaction Body 
 #### Confirmation Transaction Body 
 #### Correction Transaction Body 
