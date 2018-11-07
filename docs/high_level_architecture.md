@@ -25,6 +25,8 @@ TBC
 Transaction body is class dependent, as below:
 
 #### Projected Transaction Body 
+In addition to common transaction (Event) header, it is required to have at least the following fields:
+
 #### Actual Transaction Body 
 #### Confirmation Transaction Body 
 #### Correction Transaction Body 
