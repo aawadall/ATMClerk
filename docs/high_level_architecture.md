@@ -8,6 +8,7 @@ Transaction headers are made of the following common fields:
 - **Entry Timestamp**: Time when this entry was stored in the immutable transactions store 
 - **Transaction Class**: a string defining direction of a transaction, see [Proposed Transaction classes](#proposed-transaction-classes) section 
 - **Transaction Type**: a string defining purpose of this transaction
+- **Entity Account Number**: an internal identifier to an entity handled by the system; Cassette, ATM, Cash Provider, Packing Depot, Delivery Depot, Carrier, etc. 
 
 #### Proposed Transaction Classes
 1. **Projected Transaction**: A promise of a transaction. This is a two legged transaction, completed by a _Confirmation Transaction_.
