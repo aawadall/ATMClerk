@@ -33,11 +33,31 @@ In addition to common transaction (Event) header, it is required to have at leas
 _**Note**: that this transaction class can be used only for the following transaction types:_
 - Load Cash
 - Empty Cash 
+
 #### Actual Transaction Body 
 #### Confirmation Transaction Body 
 #### Correction Transaction Body 
 
+### Common Objects
+There are some objects embedded into events that are commonly shared among different event messages
+
+- Amount
+- Carrier 
+- Currency 
+- Denomination 
+- ATM
 ## Derived Stories
+Stories are relations between different events imported into the system. for example, we could define a story of an ATM cycle by the following events:
+
+1. Order Cash Load
+1. Confirm Cash Load
+1. User Transactions
+1. Order Empty Cash 
+1. Confirm Empty Cash 
+
+The story derived from the events above would describe starting balance of this cycle, when it started,how much was dispensed and deposited, when this cycle ended, and how much cash was returned.
+
+
 ## Workers
 ## Reporting Service
 ## Presentation Service
