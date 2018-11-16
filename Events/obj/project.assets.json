@@ -2,27 +2,6 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.1": {
-      "Microsoft.AppCenter/1.9.0": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard1.0/Microsoft.AppCenter.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.0/Microsoft.AppCenter.dll": {}
-        }
-      },
-      "Microsoft.AppCenter.Analytics/1.9.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AppCenter": "1.9.0"
-        },
-        "compile": {
-          "lib/netstandard1.0/Microsoft.AppCenter.Analytics.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.0/Microsoft.AppCenter.Analytics.dll": {}
-        }
-      },
       "Microsoft.NETCore.App/2.1.0": {
         "type": "package",
         "dependencies": {
@@ -232,40 +211,6 @@
     }
   },
   "libraries": {
-    "Microsoft.AppCenter/1.9.0": {
-      "sha512": "jUCmustijWMUCKlY2kzMUuPqcoVxCSJBR2FpjUQsR7kUTdrPvoKgfPeSr/b6eF5g3nLRbl6GRW7StnnY7yMh+Q==",
-      "type": "package",
-      "path": "microsoft.appcenter/1.9.0",
-      "files": [
-        ".signature.p7s",
-        "lib/MonoAndroid403/Microsoft.AppCenter.Android.Bindings.dll",
-        "lib/MonoAndroid403/Microsoft.AppCenter.dll",
-        "lib/Xamarin.iOS10/Microsoft.AppCenter.dll",
-        "lib/Xamarin.iOS10/Microsoft.AppCenter.iOS.Bindings.dll",
-        "lib/netstandard1.0/Microsoft.AppCenter.dll",
-        "lib/portable-net45+win8+wpa81+wp8/Microsoft.AppCenter.dll",
-        "lib/uap10.0/Microsoft.AppCenter.dll",
-        "microsoft.appcenter.1.9.0.nupkg.sha512",
-        "microsoft.appcenter.nuspec"
-      ]
-    },
-    "Microsoft.AppCenter.Analytics/1.9.0": {
-      "sha512": "bHXciKGX6WOZlxomjB/gfC+M191TFMN07mjzEUjBj1agNJ3wG8d8fOC7WZKBRbWN8APZ7OyNfZaKCPFGzyPcJw==",
-      "type": "package",
-      "path": "microsoft.appcenter.analytics/1.9.0",
-      "files": [
-        ".signature.p7s",
-        "lib/MonoAndroid403/Microsoft.AppCenter.Analytics.Android.Bindings.dll",
-        "lib/MonoAndroid403/Microsoft.AppCenter.Analytics.dll",
-        "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.dll",
-        "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.iOS.Bindings.dll",
-        "lib/netstandard1.0/Microsoft.AppCenter.Analytics.dll",
-        "lib/portable-net45+win8+wpa81+wp8/Microsoft.AppCenter.Analytics.dll",
-        "lib/uap10.0/Microsoft.AppCenter.Analytics.dll",
-        "microsoft.appcenter.analytics.1.9.0.nupkg.sha512",
-        "microsoft.appcenter.analytics.nuspec"
-      ]
-    },
     "Microsoft.NETCore.App/2.1.0": {
       "sha512": "AvT774nTFgU8cYcGO9j1EMwuayKslxqYTurg32HGpWa2hEYNuW2+XgYVVNcZe6Ndbr84QX6fwaOZfd5n+1m2OA==",
       "type": "package",
@@ -732,7 +677,6 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
-      "Microsoft.AppCenter.Analytics >= 1.9.0",
       "Microsoft.NETCore.App >= 2.1.0"
     ]
   },
@@ -743,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Database\\RnD\\ATMClerk\\ATMClerk\\ATMClerk.Tester.csproj",
-      "projectName": "ATMClerk.Tester",
-      "projectPath": "c:\\Database\\RnD\\ATMClerk\\ATMClerk\\ATMClerk.Tester.csproj",
+      "projectUniqueName": "C:\\Database\\RnD\\ATMClerk\\ATMClerk\\Events\\Events.csproj",
+      "projectName": "Events",
+      "projectPath": "C:\\Database\\RnD\\ATMClerk\\ATMClerk\\Events\\Events.csproj",
       "packagesPath": "C:\\Users\\ahmed.awadallah\\.nuget\\packages\\",
-      "outputPath": "c:\\Database\\RnD\\ATMClerk\\ATMClerk\\obj\\",
+      "outputPath": "C:\\Database\\RnD\\ATMClerk\\ATMClerk\\Events\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -777,10 +721,6 @@
     "frameworks": {
       "netcoreapp2.1": {
         "dependencies": {
-          "Microsoft.AppCenter.Analytics": {
-            "target": "Package",
-            "version": "[1.9.0, )"
-          },
           "Microsoft.NETCore.App": {
             "target": "Package",
             "version": "[2.1.0, )",
