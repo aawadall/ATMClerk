@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/aawadall/ATMClerk.svg?branch=master)](https://travis-ci.com/aawadall/ATMClerk)
+
 # ATMClerk
 event driven ATM reconciliation system
 ## About ATMClerk
