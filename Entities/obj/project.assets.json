@@ -743,11 +743,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Database\\RnD\\ATMClerk\\ATMClerk\\ATMClerk.Tester.csproj",
+      "projectUniqueName": "c:\\Database\\RnD\\ATMClerk\\ATMClerk\\Entities\\ATMClerk.Tester.csproj",
       "projectName": "ATMClerk.Tester",
-      "projectPath": "c:\\Database\\RnD\\ATMClerk\\ATMClerk\\ATMClerk.Tester.csproj",
+      "projectPath": "c:\\Database\\RnD\\ATMClerk\\ATMClerk\\Entities\\ATMClerk.Tester.csproj",
       "packagesPath": "C:\\Users\\ahmed.awadallah\\.nuget\\packages\\",
-      "outputPath": "c:\\Database\\RnD\\ATMClerk\\ATMClerk\\obj\\",
+      "outputPath": "c:\\Database\\RnD\\ATMClerk\\ATMClerk\\Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

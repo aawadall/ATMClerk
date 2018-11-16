@@ -1,0 +1,11 @@
+C:\Database\RnD\ATMClerk\ATMClerk\Events\obj\Debug\netcoreapp2.1\Events.csprojAssemblyReference.cache
+C:\Database\RnD\ATMClerk\ATMClerk\Events\obj\Debug\netcoreapp2.1\Events.csproj.CoreCompileInputs.cache
+C:\Database\RnD\ATMClerk\ATMClerk\Events\obj\Debug\netcoreapp2.1\Events.AssemblyInfoInputs.cache
+C:\Database\RnD\ATMClerk\ATMClerk\Events\obj\Debug\netcoreapp2.1\Events.AssemblyInfo.cs
+C:\Database\RnD\ATMClerk\ATMClerk\Events\bin\Debug\netcoreapp2.1\Events.deps.json
+C:\Database\RnD\ATMClerk\ATMClerk\Events\bin\Debug\netcoreapp2.1\Events.runtimeconfig.json
+C:\Database\RnD\ATMClerk\ATMClerk\Events\bin\Debug\netcoreapp2.1\Events.runtimeconfig.dev.json
+C:\Database\RnD\ATMClerk\ATMClerk\Events\bin\Debug\netcoreapp2.1\Events.dll
+C:\Database\RnD\ATMClerk\ATMClerk\Events\bin\Debug\netcoreapp2.1\Events.pdb
+C:\Database\RnD\ATMClerk\ATMClerk\Events\obj\Debug\netcoreapp2.1\Events.dll
+C:\Database\RnD\ATMClerk\ATMClerk\Events\obj\Debug\netcoreapp2.1\Events.pdb
