@@ -1,6 +1,6 @@
 namespace Events
 {
-    public class CashEvent
+    public interface IEventType
     {
     }
 }

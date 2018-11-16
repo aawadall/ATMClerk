@@ -13,12 +13,12 @@ namespace Events
         /// </summary>
         /// <param name="cashEvent"></param>
         /// <returns>Key to newly stored event</returns>
-        IEventKey Store(CashEvent cashEvent);
+        IEventKey Store(ICashEvent cashEvent);
         /// <summary>
         /// Searches for one or more events given an event key
         /// </summary>
         /// <param name="key"></param>
         /// <returns></returns>
-        List<CashEvent> Find(IEventKey key);
+        List<ICashEvent> Find(IEventKey key);
     }
 }
