@@ -1,7 +1,8 @@
 language: csharp
 mono: none
 dotnet: 2.1.300
-#script:
+script:
+   - ls
 #  - dotnet restore
 #  - dotnet build
 #  - dotnet run 
