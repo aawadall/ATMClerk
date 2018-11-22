@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "70b63120291e8b4f26540c227217389928625277"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "ATMClerk.Tester/1.0.0": {
+        "dependencies": {
+          "Microsoft.AppCenter.Analytics": "1.9.0"
+        },
+        "runtime": {
+          "ATMClerk.Tester.dll": {}
+        }
+      },
+      "Microsoft.AppCenter/1.9.0": {
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.AppCenter.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "1.9.0.0"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Analytics/1.9.0": {
+        "dependencies": {
+          "Microsoft.AppCenter": "1.9.0"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.AppCenter.Analytics.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "1.9.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ATMClerk.Tester/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AppCenter/1.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jUCmustijWMUCKlY2kzMUuPqcoVxCSJBR2FpjUQsR7kUTdrPvoKgfPeSr/b6eF5g3nLRbl6GRW7StnnY7yMh+Q==",
+      "path": "microsoft.appcenter/1.9.0",
+      "hashPath": "microsoft.appcenter.1.9.0.nupkg.sha512"
+    },
+    "Microsoft.AppCenter.Analytics/1.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bHXciKGX6WOZlxomjB/gfC+M191TFMN07mjzEUjBj1agNJ3wG8d8fOC7WZKBRbWN8APZ7OyNfZaKCPFGzyPcJw==",
+      "path": "microsoft.appcenter.analytics/1.9.0",
+      "hashPath": "microsoft.appcenter.analytics.1.9.0.nupkg.sha512"
+    }
+  }
+}
