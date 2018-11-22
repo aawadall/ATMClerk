@@ -7,6 +7,7 @@ namespace Events
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            // Empty Stub for event handler
         }
     }
 }
